@@ -16,7 +16,7 @@ const CartPage = () => {
     <ul className={classes.list}>
         {cart.items.map(item => <li key={item.food.id}>
 <div>
-    <img src={`/foods/${item.food.imageUrl}`} alt={item.food.name} />
+    <img src={`${item.food.imageUrl}`} alt={item.food.name} />
 </div>
 <div>
    <Link to={`/food/${item.food.id}`}>{item.food.name}</Link> 
