@@ -15,7 +15,7 @@ return (
     <header className={classes.header}>
         <div className={classes.container}>
             <Link to="/" className={classes.logo}>
-            Khana Khazana!
+            Food Mine!
             </Link>
             <nav>
                 <ul>
